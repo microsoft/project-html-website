@@ -3,18 +3,29 @@
 
 <head>
      <title>HTML Application</title>
+     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <meta name="HandheldFriendly" content="true">
 	 <link href="css/site.css" rel="stylesheet">
+     <link rel="icon" href="img/favicon.png" type="image/x-icon"/>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <div class="main-container">
-        <div class="cloud-image">
-            <img src="img/successCloudNew.svg" />
-        </div>
+    <div class="main-container container-fluid">
+        <div class="row">
+            <div class="col-md-10 col-12 justify-content-center">
+                
+                <div class="cloud-image">
+                    <img src="img/successCloudNew.svg" class="img-fluid"/>
+                </div>
+            </div>
+        <div class="col-md-10 col-8">
         <div class="content">
             <div class="tweet-container">
             <a href="http://twitter.com/intent/tweet/?text=I%20just%20created%20a%20new%20HTML%20website%20on%20Azure%20using%20Azure%20DevOps%20Project&hashtags=AzureDevOpsProject%2CVSTS%20%40Azure%20%40VSTS">
-                <img src="img/tweetThis.svg" />
+                <img src="img/tweetThis.svg" class="img-fluid" />
             </a>            
         </div>
             <div class="content-body">
@@ -52,6 +63,8 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
     </div>
 </body>
 
