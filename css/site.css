@@ -1,134 +1,176 @@
- html,
-        body {
-            height: 100%;
-            width: 100%;
-            padding: 0;
-            margin: 0;
-        }
-        @font-face{
-            font-family: "Segoe UI";
-            src: url('../fonts/segoeuil.ttf');
-        }
-        .main-container {
-            height: 100%;
-            width: 100%;
-            background-color: #1d539d;
-            color: white;
-            padding-top: 6%;
-            box-sizing: border-box;
-            overflow-y: auto;
-            overflow-x: hidden;
-            font-family: "Segoe UI";
-        }
+@font-face{
+    font-family: "Segoe UI";
+    src: url('../fonts/segoeuil.ttf');
+}
 
-        .cloud-image {
-            width: 1200px;
-            height: 250px;
-            padding-bottom: 50px;
-            margin: auto;
-        }
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #1d539d;
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-size: 14px;
+}
 
-        .success-text {
-            padding-bottom: 20px;
-            font-size: 62px;
-            line-height: 73px;
-        }
+html {
+    height: 100%;
+}
 
-        .description {
-            font-size: 34px;
-            line-height: 40px;
-        }
+.main-container {
+    padding-top: 6%;
+}
 
-        .next-steps-container {
-            padding-top: 50px;
-        }
+.cloud-image {
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    margin: auto;
+}
 
-        .next-steps-header {
-            font-size: 24px;
-            line-height: 28px;
-            padding-bottom: 25px;
-        }
+.success-text {
+    padding-bottom: 20px;
+    font-size: 62px;
+    line-height: 73px;
+}
 
-        .next-steps-body {
-            display: flex;
-            flex-direction: column;
-        }
+.description {
+    font-size: 34px;
+    line-height: 40px;
+}
 
-        .step {
-            display: flex;
-            margin: 7px 0px;
-            font-size: 15px;
-            line-height: 21px;
-        }
+.next-steps-container {
+    padding-top: 50px;
+}
 
-        .step-icon {
-            height: 20px;
-            width: 20px;
-            margin-right: 10px;
-        }
-		
-		.step-text a {
-            color: white;
-			text-decoration: none;
-        }
-		
-		.step-text a:hover {
-            color: white;
-			text-decoration:underline;
-        }
+.next-steps-header {
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 25px;
+}
 
-        .content {
-            box-sizing: border-box;
-            min-width: 700px;
-            max-width: 830px;
-            position: relative;
-            margin: auto;
-        }
+.next-steps-body {
+    display: flex;
+    flex-direction: column;
+}
 
-        .tweet-container {
-            min-width: 30px;
-            min-height: 100px;
-            margin: 0 20px;
-            position: absolute;
-            left: -100px;
-            top: 110px;
-        }
-        .content-body{
-            min-width: 400px;
-        }
+.step {
+    display: flex;
+    margin: 7px 0px;
+    font-size: 15px;
+    line-height: 21px;
+}
 
-        @media (max-width: 1024px) {
-            .main-container{
-                padding-top: 1%;
-            }
-            .cloud-image {
-                padding-bottom: 30px;
-            }
-            .next-steps-container {
-                padding-top: 30px;
-            }
-            .next-steps-header {
-                padding-bottom: 20px;
-            }
-            .success-text {
-                font-size: 50px;
-                line-height: 61px;
-                padding-bottom: 10px;
-            }
-            .description {
-                font-size: 26px;
-                line-height: 30px;
-            }
+.step-icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
 
-            .step {
-                font-size: 12px;
-                line-height: 18px;
-            }
-            .tweet-container {
-                top: 80px;
-            }
-            .content{
-                max-width: 630px;
-                min-width: 630px;
-            }
-        }
+.step-text a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.step-text a:hover {
+    color: #ffffff;
+    text-decoration:underline;
+}
+
+.content {
+    box-sizing: border-box;
+    min-width: 700px;
+    max-width: 830px;
+    position: relative;
+    margin: auto;
+}
+
+.tweet-container {
+    min-width: 30px;
+    min-height: 100px;
+    margin: 0 20px;
+    position: absolute;
+    left: -100px;
+    top: 110px;
+}
+
+.content-body{
+    min-width: 400px;
+}
+
+@media (max-width: 1024px) {
+
+    .main-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 1%;
+    }
+
+    .cloud-image {
+        padding-bottom: 30px;
+        margin-left: 2%;
+    }
+
+    .next-steps-container {
+        padding-top: 30px;
+    }
+
+    .next-steps-header {
+        padding-bottom: 20px;
+    }
+
+    .success-text {
+        font-size: 50px;
+        line-height: 61px;
+        padding-bottom: 10px;
+    }
+
+    .description {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .step {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .tweet-container {
+        top: 80px;
+    }
+
+    .content{
+        max-width: 630px;
+        min-width: 630px;
+    }
+}
+
+@media (max-width: 910px) {
+
+    body,
+    html {
+        font-size: 18px;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        padding: 3%;
+    }
+
+    .step {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .tweet-container {
+        left: 0;
+        margin-top: -115px;
+    }
+}
