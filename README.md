@@ -4,6 +4,8 @@
 | -------- | --------|--------|
 | HTML |  Azure Web App, Virtual Machine| |
 
+This is demo for branching and merging
+
 # Sample HTML website 
 
 Sample HTML/CSS web app that you can deploy to Azure. 
