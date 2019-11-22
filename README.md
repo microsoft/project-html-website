@@ -1,5 +1,5 @@
 # This repo is no longer used. Please see  https://github.com/microsoft/devops-project-samples for samples of Azure DevOps Project
-
+#this is for testing git reset demo
 | Language | Platform | Author |
 | -------- | --------|--------|
 | HTML |  Azure Web App, Virtual Machine| |
