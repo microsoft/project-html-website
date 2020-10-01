@@ -1,4 +1,4 @@
-# This repo is no longer used. Please see  https://github.com/microsoft/devops-project-samples for samples of Azure DevOps Project
+# This project is really amazing! but ..This repo is no longer used. Please see  https://github.com/microsoft/devops-project-samples for samples of Azure DevOps Project
 
 | Language | Platform | Author |
 | -------- | --------|--------|
