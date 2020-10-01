@@ -1,14 +1,14 @@
-# This repo is no longer used. Please see  https://github.com/microsoft/devops-project-samples for samples of Azure DevOps Project
+# This repoj. is no longer used. Please see  https://github.com/microsoft/devops-project-samples for samples of Azure DevOps Project
 
 | Language | Platform | Author |
 | -------- | --------|--------|
 | HTML |  Azure Web App, Virtual Machine| |
 
-# Sample HTML website 
+# Sample HTML website:
 
 Sample HTML/CSS web app that you can deploy to Azure. 
 
-## License
+## License: 
 
 See [LICENSE](LICENSE).
 
