@@ -1,4 +1,11 @@
- html,
+ *{
+	 margin:0px;
+	 padding:0px;
+	 box-sizing:border-box;
+	 
+}
+
+html,
         body {
             height: 100%;
             width: 100%;
@@ -13,7 +20,7 @@
             height: 100%;
             width: 100%;
             background-color: #1d539d;
-            color: white;
+            color: #fff;
             padding-top: 6%;
             box-sizing: border-box;
             overflow-y: auto;
