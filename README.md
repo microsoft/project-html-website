@@ -8,7 +8,7 @@
 
 Sample HTML/CSS web app that you can deploy to Azure. 
 
-## License
+## License 
 
 See [LICENSE](LICENSE).
 
