@@ -4,11 +4,14 @@
             width: 100%;
             padding: 0;
             margin: 0;
+            font-size:100%;
+
         }
         @font-face{
             font-family: "Segoe UI";
             src: url('../fonts/segoeuil.ttf');
         }
+       
         .main-container {
             height: 100%;
             width: 100%;
@@ -21,12 +24,7 @@
             font-family: "Segoe UI";
         }
 
-        .cloud-image {
-            width: 1200px;
-            height: 250px;
-            padding-bottom: 50px;
-            margin: auto;
-        }
+        
 
         .success-text {
             padding-bottom: 20px;
@@ -90,14 +88,14 @@
             min-height: 100px;
             margin: 0 20px;
             position: absolute;
-            left: -100px;
+            left: -80px;
             top: 110px;
         }
         .content-body{
             min-width: 400px;
         }
 
-        @media (max-width: 1024px) {
+      /*  @media (max-width: 1024px) {
             .main-container{
                 padding-top: 1%;
             }
@@ -111,17 +109,17 @@
                 padding-bottom: 20px;
             }
             .success-text {
-                font-size: 50px;
+             
                 line-height: 61px;
                 padding-bottom: 10px;
             }
             .description {
-                font-size: 26px;
+             
                 line-height: 30px;
             }
 
             .step {
-                font-size: 12px;
+               
                 line-height: 18px;
             }
             .tweet-container {
@@ -131,4 +129,56 @@
                 max-width: 630px;
                 min-width: 630px;
             }
-        }
+        }*/
+        @media (max-width: 767px) { 
+            .success-text
+             {
+                font-size:2rem;
+            } 
+            .description {
+                font-size:1rem;
+            }
+            .next-steps-header {
+                font-size:1.6rem;
+            }
+            .step  {
+                font-size:0.51rem;
+            }
+         } 
+@media (min-width: 768px) and (max-width: 1024px) { 
+             .success-text
+             {
+                font-size:4.2rem;
+                line-height: 61px;
+                padding-bottom: 20px;
+            } 
+            .description {
+                font-size:2rem;
+                line-height: 40px;
+            }
+             .next-steps-container {
+                padding-top: 80px;
+            }
+            .next-steps-header {
+                font-size:4rem;
+                padding-bottom: 30px;
+            }
+            .step  {
+                font-size:1.5rem;
+                line-height: 40px;
+                padding-bottom: 10px;
+            }} 
+/*@media (min-width:1100px) { .success-text
+             {
+                font-size:1.6rem;
+            } 
+            .description {
+                font-size:1rem;
+            }
+            .next-steps-header {
+                font-size:1.6rem;
+            }
+            .step  {
+                font-size:0.51rem;
+            } }
+*/
