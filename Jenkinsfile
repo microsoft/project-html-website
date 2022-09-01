@@ -9,8 +9,7 @@ pipeline {
       {
         script
         {
-          sudo yum install nginx -y
-          sudo service nginx start
+          sh 'sudo yum install nginx -y && sudo service nginx start'
         }
       }
     }
