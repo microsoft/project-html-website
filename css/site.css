@@ -132,3 +132,14 @@
                 min-width: 630px;
             }
         }
+        
+        @media (max-width: 1240px) {
+            .cloud-image {
+              margin-left: 30px;
+            }
+          }
+          @media (max-width: 1145px) {
+            .content {
+              margin-left: 165px;
+            }
+          }
