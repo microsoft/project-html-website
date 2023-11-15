@@ -5,6 +5,39 @@
             padding: 0;
             margin: 0;
         }
+		
+		#search{
+			
+			
+			margin-bottom : 15px;
+			margin-top : 15px;
+			margin-right : 15px;
+			float : right;
+		}
+		
+		ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00008B;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
         @font-face{
             font-family: "Segoe UI";
             src: url('../fonts/segoeuil.ttf');
